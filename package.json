@@ -1,0 +1,21 @@
+{
+  "name": "p3-server",
+  "version": "1.0.0",
+  "description": "Pruebas de servidor node Parte 3",
+  "license": "MIT",
+  "author": "Ciro Mestraitua",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
